@@ -36,7 +36,7 @@
 &DOUBLE_TICK  &kp N1    &kp N2            &kp N3  &kp N4          &kp N5  &tog 2                                                       &kp EQUAL  &kp N6  &kp N7      &kp N8     &kp N9    &kp N0        &kp MINUS
 &mo 2         &kp Q     &kp W             &kp E   &kp R           &kp T   &kp LPAR                                                     &kp RPAR   &kp Y   &kp U       &kp I      &kp O     &kp P         &lt 2 BSLH
 &kp LCTRL     &kp A     &kp S             &kp D   &kp F           &kp G   &kp LBKT   &kp DEL        &kp HOME       &kp PG_UP  &kp END  &kp RBKT   &kp H   &kp J       &kp K      &kp L     &kp SEMI      &mt RIGHT_COMMAND SQT
-&mo 0         &kp Z     &kp X             &kp C   &kp V           &kp B                             &kp LC(W)      &kp PG_DN                      &kp N   &kp M       &kp COMMA  &kp DOT   &kp FSLH      &mo 0
+&mo 3         &kp Z     &kp X             &kp C   &kp V           &kp B                             &kp LC(W)      &kp PG_DN                      &kp N   &kp M       &kp COMMA  &kp DOT   &kp FSLH      &mo 3
 &kp GLOBE     &kp LALT  &kp LEFT_COMMAND  &mo 1   &kp LEFT_SHIFT          &kp SPACE  &kp BACKSPACE  &kp GRAVE      &kp ESC    &kp TAB  &kp RET            &kp RSHIFT  &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT
             >;
         };
@@ -55,11 +55,11 @@
         vimarrow {
             display-name = "vim";
             bindings = <
-&trans  &trans        &trans     &trans     &trans    &trans     &trans                                      &trans  &trans        &trans        &trans      &trans         &trans  &trans
-&none   &trans        &trans     &trans     &trans    &trans     &none                                       &none   &kp LC(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LC(RIGHT)  &trans  &none
-&trans  &kp NUMBER_0  &kp CARET  &kp PRCNT  &kp DLLR  &kp ASTRK  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
-&none   &trans        &trans     &kp LBKT   &kp RBKT  &kp HASH                   &trans      &trans                  &kp HOME      &kp PG_DN     &kp PG_UP   &kp END        &trans  &none
-&trans  &trans        &trans     &none      &trans               &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans         &trans  &trans
+&trans  &kp F1        &kp F2     &kp F3     &kp F4    &kp F5     &trans                                      &trans  &kp F6        &kp F7        &kp F8      &kp F9         &kp F10  &kp F11
+&none   &trans        &trans     &trans     &trans    &trans     &none                                       &none   &kp LC(LEFT)  &kp LA(DOWN)  &kp LA(UP)  &kp LC(RIGHT)  &trans   &none
+&trans  &kp NUMBER_0  &kp CARET  &kp PRCNT  &kp DLLR  &kp ASTRK  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans   &trans
+&none   &trans        &trans     &trans     &trans    &kp HASH                   &trans      &trans                  &kp HOME      &kp PG_DN     &kp PG_UP   &kp END        &trans   &none
+&trans  &trans        &trans     &none      &trans               &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans         &trans   &trans
             >;
         };
 
@@ -69,7 +69,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans      &trans             &trans           &trans
 &none   &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans      &trans             &trans           &none
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans      &trans             &trans           &trans
-&none   &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans      &trans             &trans           &none
+&none   &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &kp C_PREV  &kp C_NEXT         &trans           &none
 &trans  &trans  &trans  &none   &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE
             >;
         };
